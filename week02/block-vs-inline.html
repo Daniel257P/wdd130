@@ -18,22 +18,32 @@
         <div>In the HTML of this document, change this div element to a span element.</div>
 
         <p class="question">What happens to the layout? Does it still take up the full width?</p>
+        <p>No, the layout disappear when I use the span element</p>
 
         <h2>Task 2: Nesting Inline in Block</h2>
-        <p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element;</span></p>
+        <p>A paragraph &lt;p&gt;element (block) with a <span>&lt;span&gt; element;</span></p>
         <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph. Observe
             how it flows within the line.</p>
+        <p>The &lt;em&gt; element marks text that has stress emphasis, what I saw was a italic text when using it </p>
+        <p>The &lt;strong&gt; element displayed the text in bold.</p>
 
         <h2>Task3: Nesting Block in Inline</h2>
         <span>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</span>
             <p class="question">What error or layout issue do you see? Why does this happen?</p>
+            <p>The text between the element &lt;div&gt; is kept in the block, and the rest is outside the block</p>
+            <p>The &lt;div&gt; can't live inside the &lt;span&gt; element</p>
+            <p>Most browsers will automatically close the &lt;span&gt; element before starting the &lt;div&gt;</p>
 
 
             <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
-        &lt;img&gt; element
+        <div>&lt;img&gt; element</div>
         <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300" height="300">
+        <nav>
         <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element</a>
+        </nav>
         <button type="button">&lt;button&gt; element</button>
+        <p>Ok, I saw that the inline elements above where not structure correctlly, thats why the imege were between the text and the hyperlink. So I added those attributes that give structure and meaning to the webpage.</p>
+
     </main>
 </body>
 

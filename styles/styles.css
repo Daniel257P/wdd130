@@ -1,0 +1,23 @@
+nav {
+    background-color: darkblue;
+    padding: 10xp;
+}
+nav a {
+    color: white;
+    display:block;
+    margin-bottom: 15px;
+    padding: 20xp;
+}
+h1 {
+    color: darkblue;
+}
+img {
+    width: 150xp;
+    height: auto;
+    border: 1xp solid black;
+    padding: 2xp;
+    box-shadow: 0 0 30xp gray;
+}
+p {
+    padding: 10xp;
+}
