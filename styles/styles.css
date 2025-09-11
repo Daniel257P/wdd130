@@ -1,21 +1,21 @@
 nav {
     background-color: #04154c;
-    padding: 10xp;
+    padding: 10px;
 }
 nav a {
     color: white;
     display:block;
     margin-bottom: 15px;
-    padding: 20xp;
+    padding: 20px;
 }
 h1 {
     color: rgb(0, 0, 0);
 }
 main img {
-    width: 150xp;
+    width: 150px;
     height: auto;
-    border: 1xp solid black;
-    padding: 2xp;
+    border: 1px solid black;
+    padding: 2px;
     box-shadow: 0 0 30xp gray;
 }
 p {
@@ -27,7 +27,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb (0 0 0 / 0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #04154c;
     color: #ffffff;
