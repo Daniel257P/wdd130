@@ -1,46 +1,77 @@
+:root {
+         /* color palette */
+    --background-color:#04154c;
+    --primary-color: white; 
+    --secondary-color: black;
+        /* text */
+    --text-align: center;
+        /* spacing */
+    --padding-small: 5px;
+    --padding-medium: 10px;
+    --padding-large: 20px;
+    --margin-small: 2rem;
+}
 nav {
-    background-color: #04154c;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--padding-medium);
+    margin: var(--margin-small);
 }
 nav a {
-    color: white;
+    color: var(--primary-color);
     display:block;
     margin-bottom: 15px;
-    padding: 20px;
+    padding: var(--padding-large);
 }
 h1 {
-    color: rgb(0, 0, 0);
+    color: var(--secondary-color);
 }
 main img {
-    width: 150px;
+    width: 250px;
     height: auto;
     border: 1px solid rgb(255, 255, 255);
-    padding: 2px;
+    padding: var(--padding-small);
     box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 p {
-    padding: 0;
+    padding: 0px;
 }
 main {
     max-width: 840px;
 }
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--margin-small);
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #04154c;
-    color: #ffffff;
-    text-align: center;
+    padding: var(--padding-large);
+    background-color:var(--background-color);
+    color: var(--primary-color);
+    text-align: var(--text-align);
 }
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
+/* I wrapped main and aside in a container to make aside
+stay on the left and main on the right */
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.container aside {
+    order: -2;
+}
 footer {
-    margin-top: 15px;
+    background-color: var(--background-color);
+    margin-top: 20px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
+    margin: var(--margin-small);
+    color: var(--primary-color);
 }
 body {
     font-family: ariel, sans-serif;
