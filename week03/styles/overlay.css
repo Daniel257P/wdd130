@@ -17,8 +17,8 @@ h1 {
       
 .herodiv {
   margin: 10px auto;
-  position: relative; /* If removed, what happens? */
-} /*The block when to the bottom when I removed the relative position */
+  position:rel ; /* If removed, what happens? */
+} /*The block go to the bottom when I removed the relative position */
       
 .herodiv img {
   width: 100%;
@@ -27,9 +27,10 @@ h1 {
 }
       
 .stats {
-  position: absolute;
+  position: relative;
   bottom: 25px; 
-  left: 15px;
+  left: 15%;
+  right: 15%;
   background: radial-gradient(#eee, #323A06);
   border: 1px solid #000;
   padding: 0.65rem;

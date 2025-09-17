@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
          /* color palette */
     --background-color:#04154c;
     --primary-color: white; 
     --secondary-color: black;
+    --third-color: #b6976b;
         /* text */
     --text-align: center;
         /* spacing */
@@ -13,14 +19,21 @@
 }
 nav {
     background-color: var(--background-color);
-    padding: var(--padding-medium);
-    margin: var(--margin-small);
+    padding: var(--padding-large);
+    margin: var(--margin-large);
 }
 nav a {
     color: var(--primary-color);
-    display:block;
-    margin-bottom: 15px;
-    padding: var(--padding-large);
+    margin-bottom: 5px;
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul a {
+    color: var(--primary-color);
+}
+ul a:hover {
+    color: var(--third-color);
 }
 h1 {
     color: var(--secondary-color);
@@ -31,24 +44,23 @@ main img {
     border: 1px solid rgb(255, 255, 255);
     padding: var(--padding-small);
     box-shadow: 0 0 30px rgb(255, 255, 255);
+    float: right;
 }
 p {
     padding: 0px;
 }
 main {
-    max-width: 840px;
+    max-width: 650px;
+    padding-top: 0.5cm;
+    margin-left: 8rem;
 }
 aside {
     width: 20rem;
-    margin: var(--margin-small);
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: var(--padding-large);
-    background-color:var(--background-color);
-    color: var(--primary-color);
     text-align: var(--text-align);
 }
+
 aside img {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 /* I wrapped main and aside in a container to make aside
@@ -76,4 +88,23 @@ footer {
 body {
     font-family: ariel, sans-serif;
     line-height: 1.6;
+}
+/* Class Selectors */
+.box {
+    margin: var(--margin-small);
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: var(--padding-large);
+    background-color:var(--background-color);
+    color: var(--primary-color);
+    min-height: 10rem;
+}
+
+.indent {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+.indent h2 {
+    text-align: center;
+    height:5rem;
 }
