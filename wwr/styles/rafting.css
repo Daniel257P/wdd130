@@ -77,15 +77,6 @@ header {
     background-color: var(--secondary-color);
     color: var(--accents1-color);
 }
-.overlay-img {
-    float: left;
-    padding: 20px;
-    background-color: var(--secondary-color);
-    color: var(--accents1-color);
-    width: 65px;
-    height: 65px;
-}
-
 .history-section {
     padding: 20px;
     text-align: center;
@@ -141,4 +132,21 @@ footer {
 }
 .socialmedia a img:hover {
     transform: scale(1.1);
+}
+article {
+    position: absolute;
+    width: 95%;
+    top: 500px;
+    right: 100px;
+    padding: 16px;
+}
+article img{
+    float: right;
+    max-width: 300px;
+}
+article {
+    display: block;
+    background-color: var(--secondary-color);
+    max-width: 500px;
+    opacity: 0.90;
 }
