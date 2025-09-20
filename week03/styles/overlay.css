@@ -27,7 +27,7 @@ h1 {
 }
       
 .stats {
-  position: relative;
+  float: right;
   bottom: 25px; 
   left: 15%;
   right: 15%;
