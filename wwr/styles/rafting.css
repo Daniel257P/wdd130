@@ -18,7 +18,7 @@ body {
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 10px 20px;
 }
@@ -26,6 +26,7 @@ header {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin-right: 250px;
 }
 .menu li a {
     text-decoration: none;
@@ -57,16 +58,16 @@ h1 {
     font-family: var(--heading-font);
     background-color: var(--secondary-color);
     color: var(--accents1-color);
-}
+} 
 article {
     position: absolute;
     width: 100%;
-    top: 500px;
+    bottom: 50px;
+    left:0;
     right: 0;
     padding: 16px;
     margin-right: 125px;
     background-color: var(--secondary-color);
-    max-width: 1000px;
     opacity: 0.80;
     text-align: center;
 }
