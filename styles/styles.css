@@ -28,7 +28,12 @@ nav a {
     padding: 2rem;
     justify-content: space-evenly;
     align-items: center;
+    text-decoration: none;
 }
+nav a:hover {
+    color: var(--third-color);
+}
+
 ul a {
     color: var(--primary-color);
 }
@@ -80,9 +85,10 @@ main, aside {
 footer {
     background-color: var(--background-color);
     margin-top: 20px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--background-color);
     text-align: var(--text-align);
-    margin: var(--margin-small);
+    margin: 20px;
+    padding: 50px;
     color: var(--primary-color);
 }
 body {
