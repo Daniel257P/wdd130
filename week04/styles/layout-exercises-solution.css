@@ -51,9 +51,11 @@ div {
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: 1/4;
+} 
 
 .three {
     margin: .25rem;
     background-color: #abd;
 }
+
