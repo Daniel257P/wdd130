@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+
+</head>
+<body>
+    <main class="box">
+        <h1>✔️ Basic HTML and CSS Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label>1. Which HTML element is used to create a hyperlink?
+                <input type="text" id="q1" name="q1"></label>
+            </div>
+               <div class="quiz-item box">
+                <label for="q2">2. Which CSS property is used to change the text color of an element?</label>
+                <textarea id="q2" name="q2"> </textarea>
+            </div>
+               <div class="quiz-item box">
+                <label for="q3">3. What does the alt attribute in an &lt;img&gt; tag do?</label>
+                <select id="q3" name="q3"> 
+                    <option value="" selected disabled>Choose One</option>
+                    <option value="a">A. Defines the image size</option>
+                    <option value="b">B. Provides alternative text if the image cannot be displayed</option>
+                    <option value="c">C. Links the image to another page</option>
+                    <option value="d">D. Adds a caption under the image</option>
+                </select>
+            </div>
+               <div class="quiz-item box">
+                <label for="q4">4.What is the bottom margin given this declaratio?</label>
+                <code class="box">margin:10px 5px 15px;</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+               <div class="quiz-item box">
+                <label for="q5">5. What is the correct way to add an external CSS file to an HTML document?</label>
+                <input type="text" id="q5" name="q5">
+            </div>
+            <button type="Submit"> Submit Quiz for Grading</button>
+        </form>
+    </main>
+</body>
+</html>
