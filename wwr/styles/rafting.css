@@ -117,6 +117,10 @@ article p {
     justify-content: center;
     align-items: center;
 }
+.history-grid figcaption {
+    opacity: 20%;
+    
+}
 
 .history-section h2 {
     font-family: var(--heading-font);
@@ -141,10 +145,10 @@ article p {
   gap: 1rem;
   margin-top: 1rem;
 }
-figure img {
+.gallery figure img {
     border-radius: 100%;
 }
-figure {
+.gallery figure {
   text-align: center;
 }
 footer {
