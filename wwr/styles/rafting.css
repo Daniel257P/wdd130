@@ -51,7 +51,7 @@ header {
     width: 100%;
     height: auto;
 }
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -209,6 +209,9 @@ fieldset {
     gap: 20px;                
     padding: 20px;
     border:none;
+}
+.contact-section iframe {
+    border: 0;
 }
 fieldset legend {
     font-weight: bold;
