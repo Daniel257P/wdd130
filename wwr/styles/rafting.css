@@ -63,6 +63,16 @@ h1 {
     background-color: var(--secondary-color);
     color: var(--accents1-color);
 } 
+.contact {
+    text-align: center;
+    font-size: large;
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+    margin: 20px auto;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 1000px;
+}
 article {
     position: absolute;
     width: 100%;
@@ -131,6 +141,9 @@ article p {
   gap: 1rem;
   margin-top: 1rem;
 }
+figure img {
+    border-radius: 100%;
+}
 figure {
   text-align: center;
 }
@@ -159,8 +172,80 @@ footer {
 .socialmedia a img:hover {
     transform: scale(1.1);
 }
+fieldset {
+    border: none;
+}
+.form {
+    flex:1;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form input,
+.form textarea,
+.form button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
+.form button {
+  background: var(--accents1-color);
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: background 0.3s ease;
+}
 
-    
+.form button:hover {
+  background: var(--secondary-color);
+  color: var(--accents1-color);
+}
 
+.contact-section {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;                
+    padding: 20px;
+    border:none;
+}
+fieldset legend {
+    font-weight: bold;
+}
 
+.message {
+     display:flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+     justify-content: space-between;
+     margin-bottom: 1rem;
+     
+}
+.message [for="MessagePurpose"] {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.message .message-options {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-left: 15px;
+}
+.contact-item {
+    display:flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.contact-item label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 190px;
+}
+.typehere textarea{
+    width: 90%;
+    margin-bottom: 1rem;
+}
