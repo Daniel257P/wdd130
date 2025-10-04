@@ -225,7 +225,7 @@ fieldset legend {
      margin-bottom: 1rem;
      
 }
-.message [for="MessagePurpose"] {
+.message .purpose{
     margin-top: 20px;
     font-weight: bold;
 }
