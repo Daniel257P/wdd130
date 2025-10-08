@@ -256,3 +256,150 @@ fieldset legend {
     width: 90%;
     margin-bottom: 1rem;
 }
+
+/* Home page */
+.hero2 {
+    position: relative;
+}
+
+.hero2 img {
+    width: 100%;
+    height: auto;
+}
+.hero2 h1 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+} 
+
+.calltoaction button a{
+    position: absolute;
+    top: 50%;
+    /* text-align: center; */
+    left: 39%;
+    background: var(--accents1-color);
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: background 0.3s ease;
+    padding: 12px;
+    border-radius: 4px;
+    width: 25%;
+    height: 50px;
+    font-family: var(--heading-font);
+    font-size: large;
+    text-decoration: none;
+}
+.calltoaction button a:hover {
+  background: var(--secondary-color);
+  color: var(--accents1-color);
+}
+/* newsletter section */
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accents1-color);
+    margin: 20px auto;
+    border-radius: 6px;
+    width: 90%;
+    max-width: 1000px;
+}
+.item1 {
+  margin-bottom: 20px;
+}
+
+.item1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.item1 figcaption {
+    opacity: 20%;
+    margin: 10px;
+}
+.item1 p {
+    text-align: center;
+    margin-top: 80px;
+    padding: 15px;
+
+}
+.newsletter-item2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.newsletter-item2 img {
+    width: 100%;
+    height: auto;
+}
+.subscribe-item2 label {
+    display: flex;
+    border: none;
+    margin: 10px;
+    gap: 40px;
+}
+.subscribe-item2 input {
+    flex: 1;
+    max-width: 50%;
+}
+.subscribe-item2 button {
+    background: var(--accents1-color);
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: background 0.3s ease;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    
+}
+/* Review Section */
+.socialmedia-review {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accents1-color);
+    margin: 20px auto;
+    border-radius: 6px;
+    width: 90%;
+    max-width: 1000px;
+}
+.socialmedia-review h2 {
+    font-family: var(--heading-font);
+}
+.review-item {
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    margin-top: 1rem;
+    justify-content: center;
+}
+.review-item figure {
+  text-align:center;
+}
+
+.socialmedia-review p {
+    justify-content: center;
+    margin: 30px;
+}
+.socialmedia-review button {
+    background: var(--accents1-color);
+    cursor: pointer;
+    color: var(--primary-color);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Trips page */
