@@ -26,9 +26,6 @@ header {
 .menu {
     list-style: none;
     display: flex;
-    /* display: grid; 
-    grid-template-columns: 35% 35% 35% 35%; 
-    text-align: center; */
     gap: 50px;
     margin-right: 250px;
 }
@@ -146,7 +143,7 @@ article p {
   margin-top: 1rem;
 }
 .gallery figure img {
-    border-radius: 100%;
+    border-radius: 20%;
 }
 .gallery figure {
   text-align: center;
@@ -280,7 +277,6 @@ fieldset legend {
 .calltoaction button a{
     position: absolute;
     top: 50%;
-    /* text-align: center; */
     left: 39%;
     background: var(--accents1-color);
     cursor: pointer;
@@ -401,5 +397,146 @@ fieldset legend {
     padding: 10px;
     margin-bottom: 15px;
 }
+/* Trips Section */
 
-/* Trips page */
+.container-trip {
+    display:grid;
+    grid-template-columns: repeat(2, 450px);
+    justify-content: center;
+    grid-gap: 25px;
+    margin: 2rem auto;
+    max-width: 900px;
+    grid-template-areas: 
+    "header header"
+    "trip1."
+    "trip2."
+    "trip3."
+    "trip4."
+    ;
+}
+.item {
+    background-color: var(--accents1-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px;
+}
+.header {
+    grid-area: header;
+    background-color: var(--secondary-color);
+    font-size: xx-large;
+    font-family: var(--heading-font);
+}
+.trip1 img{
+    grid-area: trip1;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    object-fit:cover;
+    display: block;
+    width: 100%;
+
+}
+.trip1 h2 {
+    display: flex;
+    justify-content:center;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.trip2 img{
+    grid-area: trip2;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    object-fit:cover;
+    display: block;
+    width: 100%;
+}
+.trip2 h2 {
+    display: flex;
+    justify-content:center;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+.trip3 img{
+    grid-area: trip1;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    object-fit:cover;
+    display: block;
+    width: 100%;
+
+}
+.trip3 h2 {
+    display: flex;
+    justify-content:center;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+.trip4 img{
+    grid-area: trip1;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    object-fit:cover;
+    display: block;
+    width: 100%;
+
+}
+.trip4 h2 {
+    display: flex;
+    justify-content:center;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+/* table content */
+
+.trip-table {
+  margin: 2rem auto;
+  max-width: 950px;
+  text-align: center;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.trip-table th {
+  background-color: var(--accents1-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.trip-table thead {
+    color:#ffffff
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactus {
+    margin-top: 10px;
+    border-radius: 15%;
+}
+.contactus a{
+    text-decoration: none;    
+    padding: 5px;
+    color: var(--primary-color);
+    font-family: var(--body-font);
+} 
+
