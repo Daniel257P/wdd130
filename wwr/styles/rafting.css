@@ -274,23 +274,36 @@ fieldset legend {
     color: var(--primary-color);
 } 
 
-.calltoaction button a{
+.hero2 p {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.btn1{
+    display: inline-block;
     position: absolute;
     top: 50%;
-    left: 39%;
+    left: 45%;
     background: var(--accents1-color);
     cursor: pointer;
     color: var(--primary-color);
     transition: background 0.3s ease;
     padding: 12px;
     border-radius: 4px;
-    width: 25%;
     height: 50px;
     font-family: var(--heading-font);
     font-size: large;
     text-decoration: none;
+    text-align: center;
 }
-.calltoaction button a:hover {
+.btn1:hover {
   background: var(--secondary-color);
   color: var(--accents1-color);
 }
@@ -529,14 +542,16 @@ fieldset legend {
     align-items: center;
 }
 
-.contactus {
-    margin-top: 10px;
-    border-radius: 15%;
-}
-.contactus a{
-    text-decoration: none;    
-    padding: 5px;
+.btn {
+    display: inline-block;
+    background-color: var(--accents1-color);
     color: var(--primary-color);
-    font-family: var(--body-font);
-} 
-
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+.btn:hover {
+  color: var(--secondary-color);
+}
