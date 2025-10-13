@@ -274,17 +274,18 @@ fieldset legend {
 } 
 
 .hero2 p {
+    display: inline-block;
     position: absolute;
-    top: 120px;
-    width: 100%;
+    top: 14%;
+    left: 38%;
     margin-top: 25px;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--accents1-color);
 }
-
 .btn1{
     display: inline-block;
     position: absolute;
