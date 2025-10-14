@@ -428,15 +428,20 @@ fieldset legend {
 }
 .item {
     background-color: var(--accents1-color);
-    color: var(--primary-color);
     text-align: center;
     padding: 10px;
+}
+.item header{
+    color: var(--accents1-color);
 }
 .header {
     grid-area: header;
     background-color: var(--secondary-color);
     font-size: xx-large;
     font-family: var(--heading-font);
+}
+.item p {
+    color: var(--primary-color);
 }
 .trip1 img{
     grid-area: trip1;
@@ -447,7 +452,6 @@ fieldset legend {
     object-fit:cover;
     display: block;
     width: 100%;
-
 }
 .trip1 h2 {
     display: flex;
